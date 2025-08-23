@@ -5,8 +5,7 @@ import CompanySelector from './components/CompanySelector';
 import CreditScoreDisplay from './components/CreditScoreDisplay';
 import FinancialCharts from './components/FinancialCharts';
 
-// API base URL - change this to your backend URL
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://credtech-final.onrender.com';
 
 function App() {
   const [companies, setCompanies] = useState([]);
